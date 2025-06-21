@@ -15,15 +15,20 @@
 header {
     font-family: var(--primary-font); 
 }
-h1 {
+h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 /*Navbar*/
 #navbar {
 background-color: var(--primary-color);
@@ -32,12 +37,8 @@ background-color: var(--primary-color);
 #navbar.logo {
     width: 30px;
 }
-/* Container and Row Borders for testing */
-.container, .row {
-    border: 2px solid black;
-}
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
+/*Header*/
+#header.lead {
+font-family: var(--secondary-font);
 }
