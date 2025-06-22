@@ -88,6 +88,22 @@ font-family: var(--secondary-font);
     margin: 1.5rem;
 }
 
+/*Events*/
+#events .table-primary{
+    background-color: var(--highlight-color);
+    color: white;
+    margin: auto;
+    display: block;
+    font-weight: bold;
+    max-width: 300px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
+
+#events.table {
+    font-size: 0.7rem;
+}
+
 /* Game library cards*/
 #new-games .card,
 #fav-games .card {
